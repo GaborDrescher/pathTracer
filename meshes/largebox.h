@@ -1,0 +1,32 @@
+#ifndef   LARGEBOX_HEADER
+#define   LARGEBOX_HEADER
+const char largeboxString[] = {
+"ply\n"
+"format ascii 1.0\n"
+"element vertex 8\n"
+"property float x\n"
+"property float y\n"
+"property float z\n"
+"element face 10\n"
+"property list uchar int vertex_indices\n"
+"end_header\n"
+"42.30 33.00 24.70\n"
+"26.50 33.00 29.60\n"
+"31.40 33.00 45.60\n"
+"47.20 33.00 40.60\n"
+"42.30 0.00 24.70\n"
+"47.20 0.00 40.60\n"
+"31.40 0.00 45.60\n"
+"26.50 0.00 29.60\n"
+"3 0 1 2\n"
+"3 0 2 3\n"
+"3 4 0 3\n"
+"3 4 3 5\n"
+"3 5 3 2\n"
+"3 5 2 6\n"
+"3 6 2 1\n"
+"3 6 1 7\n"
+"3 7 1 0\n"
+"3 7 0 4\n"
+};
+#endif /* LARGEBOX_HEADER */
